@@ -10,3 +10,5 @@ Will give you link to local website on server.
 
 The hosting is done through GH-Pages npm package, therefore our deployment is not automatic, to deploy and see the changes run:
 npm run deploy 
+
+Using packages: react-icon, react-router, tailwindcss.

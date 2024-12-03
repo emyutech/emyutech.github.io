@@ -1,14 +1,13 @@
 import React from 'react'
 
-const Blog = () => {
+const Content = () => {
   return (
     <div className="flex-grow" >
       <h1 className="text-center text-2xl pt-6">
-        Blog
+        Content for Courses
       </h1>
-
     </div>
   )
 }
 
-export default Blog
+export default Content

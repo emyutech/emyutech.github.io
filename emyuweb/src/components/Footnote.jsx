@@ -2,9 +2,13 @@ import React from 'react'
 
 const Footnote = () => {
   return (
-    <div>
-      Footnote
+    <>
+    <div className="flex max-w-screen">
+        <div className='py-2 px-3'>
+        &copy; 2024 EmyuMath 
+        </div>
     </div>
+    </>
   )
 }
 

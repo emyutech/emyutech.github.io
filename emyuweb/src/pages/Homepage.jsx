@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfilePic from './../assets/profile.jpg'
+import { NavLink } from 'react-router-dom'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,11 @@ const Homepage = () => {
                     <p className="text-center ">
                     The website still under construction! Thank you for your patience!
                     </p>
+                    <NavLink to="/blog" >
+                      <button className="hover:underline">
+                      Blog
+                      </button>
+                    </NavLink>
             </div>
            
         </>

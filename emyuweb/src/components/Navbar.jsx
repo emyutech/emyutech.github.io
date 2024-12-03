@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* the left buttons*/}
         <div className="flex items-center space-x-3">
           <NavLink to="/" onClick={() => isMenuOpen(false)} className=' text-xl text-center font-thin'>
-            Title
+            EmyuMath
           </NavLink>
         </div>
 
